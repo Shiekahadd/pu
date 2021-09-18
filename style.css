@@ -2,7 +2,7 @@
     font-family: 'Gugi';
   }
   html {
-    background-color: yellow;
+    background-color: lightblue;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -22,7 +22,7 @@
     padding: 1em;
     display: grid;
     position: relative;
-    background-color: black;
+    background-color: blue;
     grid-template-columns: auto 20%;
     grid-template-rows: 5em;
     justify-items: center;
@@ -67,7 +67,7 @@
     color: tomato;
   }
   footer {
-    background-color: black;
+    background-color: blue;
     position: relative;
     color: white;
     padding: 0.75em;
@@ -77,15 +77,15 @@
   }
   footer a {
     color: white;
-    text-decoration: underline black;
+    text-decoration: underline lightblue;
     transition: color 0.5s, text-shadow 0.5s;
   }
   footer a:hover {
     color: lightblue;
-    text-shadow: 1px 1px 10px black;
+    text-shadow: 1px 1px 10px lightblue;
   }
   #updated {
-    color: black;
+    color: lightblue;
     font-size: 12px;
   }
   #not-reasonable-size {
@@ -121,7 +121,7 @@
     background: transparent;
   }
   ::-webkit-scrollbar-thumb {
-    background-color: black;
+    background-color: blue;
     border-radius: 5px;
   }
   
