@@ -77,15 +77,15 @@
   }
   footer a {
     color: white;
-    text-decoration: underline lightblue;
+    text-decoration: underline black;
     transition: color 0.5s, text-shadow 0.5s;
   }
   footer a:hover {
     color: lightblue;
-    text-shadow: 1px 1px 10px lightblue;
+    text-shadow: 1px 1px 10px black;
   }
   #updated {
-    color: lightblue;
+    color: black;
     font-size: 12px;
   }
   #not-reasonable-size {
@@ -121,7 +121,7 @@
     background: transparent;
   }
   ::-webkit-scrollbar-thumb {
-    background-color: blue;
+    background-color: black;
     border-radius: 5px;
   }
   
